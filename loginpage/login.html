@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="lp">
+        <div class="login-box">
+            <h1 id="h">Login</h1>
+            <form id="loginForm" onsubmit="return validateForm()">
+                <div class="input">
+                    <label for="email">E-mail-</label>
+                    <input id="mail" placeholder="Enter your e-mail" type="text">
+                </div>
+                <div class="input">
+                    <label for="password">Password-</label>
+                    <input id="password" placeholder="Enter your password" type="password">
+                </div>
+                <button id="but" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="login.js"></script>
+</body>
+</html>

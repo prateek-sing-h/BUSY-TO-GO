@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Shopping Cart</h1>
+  </header>
+
+  <main class="cart-container">
+    <!-- Cart Items -->
+    <section class="cart-items">
+      <div class="cart-item">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTuOFsx76R78dQmLVTZEuuXhcivLAUthm7Hytvl07ITn49yZdQrZQXIGY8eJapJKil7AxMQm6X9RMtLIR_tVSI6RJjSlMGlnHSaV4KYKY7&usqp=CAE" alt="Product Image">
+        <div class="item-details">
+          <h3>TOY CAR</h3>
+          <p>Price: $20.00</p>
+          <div class="quantity">
+            <label for="quantity1">Quantity:</label>
+            <input type="number" id="quantity1" value="1" min="1">
+          </div>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <div class="cart-item">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTb_E-r_KUmyo6jHUnHLLjbNvfdSGw9cJamtgCaUu5dPOfiA4Ksp_RU43Np_wrOjFTU4YAuFwM1gs1fypxMrazx4ZdRuUqZ_XPscGAhQBvi&usqp=CAE" alt="Product Image">
+        <div class="item-details">
+          <h3>BATMAN FIGURE</h3>
+          <p>Price: $35.00</p>
+          <div class="quantity">
+            <label for="quantity2">Quantity:</label>
+            <input type="number" id="quantity2" value="1" min="1">
+          </div>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </section>
+
+    <!-- Cart Summary -->
+    <aside class="cart-summary">
+      <h2>Cart Summary</h2>
+      <p><strong>Subtotal:</strong> $55.00</p>
+      <p><strong>Shipping:</strong> $5.00</p>
+      <p><strong>Total:</strong> $60.00</p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Your E-Commerce Website. All Rights Reserved.</p>
+  </footer>
+  
+
+
+</body>
+</html>
